@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Parent Table" max_length="40" name="x_58872_needit_parent_table" type="collection">
+        <element label="ptcol1" max_length="40" name="ptcol1" reference="x_58872_needit_reflectable" type="integer"/>
+        <element label="Ptcol2" max_length="40" name="ptcol2" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

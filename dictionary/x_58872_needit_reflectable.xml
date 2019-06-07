@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Reflectable" max_length="40" name="x_58872_needit_reflectable" type="collection">
+        <element label="col5" max_length="32" name="col5" reference="x_58872_needit_parent_table" type="reference"/>
+        <element label="col6" max_length="40" name="col6" type="string"/>
+        <index name="index">
+            <element name="col5"/>
+        </index>
+    </element>
+</database>
